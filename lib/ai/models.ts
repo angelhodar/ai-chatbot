@@ -20,6 +20,18 @@ export const models: Array<Model> = [
     apiIdentifier: 'gpt-4o',
     description: 'For complex, multi-step tasks',
   },
+  {
+    id: 'gemini-2.0-flash-exp',
+    label: 'Gemini 2.0 Flash Exp',
+    apiIdentifier: 'gemini-2.0-flash-exp',
+    description: '',
+  },
+  {
+    id: 'gemini-exp-1206',
+    label: 'Gemini 1206 Exp',
+    apiIdentifier: 'gemini-exp-1206',
+    description: '',
+  },
 ] as const;
 
 export const DEFAULT_MODEL_NAME: string = 'gpt-4o-mini';
